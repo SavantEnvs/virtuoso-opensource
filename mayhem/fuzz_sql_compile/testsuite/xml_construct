@@ -1,0 +1,1 @@
+select xmlelement ('a', xmlattributes (1 as "b"), xmlforest (2 as "c"), 'x')

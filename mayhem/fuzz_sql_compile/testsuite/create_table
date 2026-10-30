@@ -1,0 +1,1 @@
+create table fz_t (id integer not null primary key, v varchar (20) default 'x', n numeric (10, 2), check (id > 0))

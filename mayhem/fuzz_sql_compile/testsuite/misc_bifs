@@ -1,0 +1,1 @@
+select sys_stat ('st_dbms_name'), cast ('2020-01-02' as datetime), iri_to_id ('http://a/b'), dict_new ()

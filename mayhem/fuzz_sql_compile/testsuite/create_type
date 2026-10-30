@@ -1,0 +1,1 @@
+create type fz_ty as (a integer, b varchar) method m1 () returns integer

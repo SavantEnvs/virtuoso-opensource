@@ -1,0 +1,1 @@
+create procedure fz_p (in x integer) { declare i, acc int; i := 0; acc := 0; while (i < x) { acc := acc + i; i := i + 1; } return acc; }

@@ -1,0 +1,1 @@
+create table fz_t (id integer primary key, v varchar); insert into fz_t values (1, 'a'); select * from fz_t where v like 'a%'

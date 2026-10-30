@@ -1,0 +1,1 @@
+select a.KEY_ID, count (*) from DB.DBA.SYS_KEYS a join DB.DBA.SYS_COLS b on a.KEY_TABLE = b."TABLE" where a.KEY_ID > 1 group by a.KEY_ID having count (*) > 0 order by 1

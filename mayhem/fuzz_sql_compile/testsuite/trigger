@@ -1,0 +1,1 @@
+create trigger fz_tr after insert on DB.DBA.SYS_KEYS referencing new as n { declare x integer; x := n.KEY_ID; }
