@@ -1,0 +1,9 @@
+project: savantenvs/virtuoso-opensource
+target: fuzz_fuzzy
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_fuzzy/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_fuzzy
+    libfuzzer: true
+    timeout: 20

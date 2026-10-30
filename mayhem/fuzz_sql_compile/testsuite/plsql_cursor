@@ -1,0 +1,1 @@
+create procedure fz_c1 (in n integer) { declare r varchar; declare cr cursor for select KEY_TABLE from DB.DBA.SYS_KEYS where KEY_ID < n; open cr; fetch cr into r; close cr; return r; }

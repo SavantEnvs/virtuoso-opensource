@@ -1,0 +1,1 @@
+create unique index fz_i on fz_t (v, id) 

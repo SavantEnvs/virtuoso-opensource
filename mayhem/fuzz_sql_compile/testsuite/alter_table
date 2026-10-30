@@ -1,0 +1,1 @@
+alter table fz_t add column c integer

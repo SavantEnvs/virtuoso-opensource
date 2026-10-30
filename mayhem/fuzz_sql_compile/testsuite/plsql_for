@@ -1,0 +1,1 @@
+create procedure fz_c2 (in n integer) { declare r varchar; for (select KEY_TABLE from DB.DBA.SYS_KEYS where KEY_ID < n) do { r := KEY_TABLE; } return r; }

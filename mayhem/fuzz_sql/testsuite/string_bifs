@@ -1,0 +1,1 @@
+select levenshtein ('kitten', 'sitting'), jaro_winkler ('MARTHA', 'MARHTA'), md5 ('abc'), sprintf ('%d-%s', 5, 'x')

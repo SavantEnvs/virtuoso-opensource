@@ -1,0 +1,1 @@
+sparql prefix foaf: <http://xmlns.com/foaf/0.1/> select distinct ?n where { ?x a foaf:Person ; foaf:name ?n . filter (regex (?n, "^a", "i")) } order by ?n

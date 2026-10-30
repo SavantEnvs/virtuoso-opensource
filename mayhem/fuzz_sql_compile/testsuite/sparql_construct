@@ -1,0 +1,1 @@
+sparql prefix ex: <http://example.org/> construct { ?s ex:p ?o } where { ?s ex:q ?o optional { ?s ex:r ?z } filter (bound (?z) || lang (?o) = 'en') } order by desc (?o) limit 3 offset 1

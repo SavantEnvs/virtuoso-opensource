@@ -1,0 +1,1 @@
+select xpath_eval ('count(//b)', xtree_doc ('<a><b>x</b><b/></a>'))
